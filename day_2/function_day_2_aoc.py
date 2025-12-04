@@ -30,8 +30,8 @@ if __name__ == "__main__":
     with open("input_day_2.txt") as file:
         data = file.readline().split(",")
 
-    """ans = main_part_1(data)
-    print(ans)"""
+    ans = main_part_1(data)
+    print(ans)
 
     ans = main_part_2(data)
     print(ans)
